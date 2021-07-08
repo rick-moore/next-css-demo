@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/ChildComponent.module.css'
 
 export default function ChildComponent() {
     return (
@@ -13,7 +13,7 @@ export default function ChildComponent() {
                     width={4797/10}
                     height={3026/10}
                 />
-        </main>
+            </main>
         </div>
     )
 }
