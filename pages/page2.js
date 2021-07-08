@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/page2.module.css'
 import { motion } from 'framer-motion'
 import ChildComponent2 from '../components/ChildComponent2'
 

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/ChildComponent2.module.css'
+import styles from '../styles/page2.module.css'
 
 export default function ChildComponent() {
     return (
