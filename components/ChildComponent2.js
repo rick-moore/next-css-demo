@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styledJsx from '../styles/ChildComponent2.styles'
 
-export default function ChildComponent2() {
+export default function ChildComponent() {
     return (
         <div>
-            <main className={styles.main, styles.page1}>
-                <h1>I AM THE SECOND PAGE</h1>
+            <main className={`${styledJsx.className} main`}>
+                <h1 className={styledJsx.className}>I AM THE FIRST PAGE</h1>
                 <Image
                     src='/image2.jpg'
                     alt='Image 2'
@@ -14,6 +14,8 @@ export default function ChildComponent2() {
                     height={3026/10}
                 />
             </main>
+            {styledJsx.styles}
         </div>
     )
 }
+

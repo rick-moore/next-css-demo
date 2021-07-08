@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styledJsx from '../styles/Home.styles.js'
 import { motion } from 'framer-motion'
 import ChildComponent from '../components/ChildComponent'
 
 export default function Home() {
   return (
     <motion.div 
-      className={styles.container}
+      className={`${styledJsx.className} container`}
       initial={{ opacity: 0 }}
       animate={{ 
         opacity: 1,
@@ -15,7 +15,7 @@ export default function Home() {
       }}
       exit={{ opacity: 0 }}
     >
-      <main className={styles.main}>
+      <main className={`${styledJsx.className} main`}>
         <ChildComponent/>
       </main>
     </motion.div>
