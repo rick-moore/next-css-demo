@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import styles from '../styles/page2.module.css'
+import styles from '../styles/Home.module.css'
 
 export default function ChildComponent() {
     return (
         <div>
             <main className={styles.main}>
-                <h1 className={styles.main_h1}>I AM THE SECOND PAGE</h1>
+                <h1 className={styles.page2_h1}>I AM THE SECOND PAGE</h1>
                 <Image
                     src='/image2.jpg'
                     alt='Image 2'
