@@ -17,6 +17,7 @@ export default function page2() {
         <main className={`${styledJsx.className} main`}>
           <ChildComponent2 />
         </main>
+        {styledJsx.styles}
       </motion.div>
     )
 }
