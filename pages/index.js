@@ -15,7 +15,7 @@ export default function Home() {
       exit={{ opacity: 0 }}
     >
       <main className={styles.main}>
-        <h1 className={styles.page1_h1}>I AM THE FIRST PAGE</h1>
+        <h1>I AM THE FIRST PAGE</h1>
       </main>
     </motion.div>
   )
