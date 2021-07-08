@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 export default function ChildComponent() {
     return (
         <div>
-            <main className={styles.main, styles.page1}>
+            <main className={styles.main}>
                 <h1>I AM THE FIRST PAGE</h1>
                 <Image
                     src='/image1.jpg'

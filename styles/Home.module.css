@@ -15,12 +15,7 @@
   align-items: center;
 }
 
-.page1 h1 {
+.main h1 {
   background-color: red;
-  font-size: 38px;
-}
-
-.page2 h1 {
-  background-color: green;
   font-size: 38px;
 }

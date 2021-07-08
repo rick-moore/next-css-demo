@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Page2.module.css'
 import { motion } from 'framer-motion'
 import ChildComponent2 from '../components/ChildComponent2'
 
-export default function page2() {
+export default function Page2() {
     return (
       <motion.div 
         className={styles.container}
