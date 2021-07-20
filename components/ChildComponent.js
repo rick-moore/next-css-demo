@@ -5,7 +5,7 @@ export default function ChildComponent() {
     return (
         <div>
             <main className={styles.main}>
-                <h1>I AM THE FIRST PAGE</h1>
+                <h1 className={styles.page1h1}>I AM THE FIRST PAGE</h1>
                 <Image
                     src='/image1.jpg'
                     alt='Image 1'

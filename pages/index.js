@@ -1,7 +1,6 @@
 import styles from '../styles/Home.module.css'
 import { motion } from 'framer-motion'
 import ChildComponent from '../components/ChildComponent'
-import ChildComponentStyles from '../styles/ChildComponent.module.css'
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
       exit={{ opacity: 0 }}
     >
       <main className={styles.main}>
-        <ChildComponent styles={ChildComponentStyles}/>
+        <ChildComponent />
       </main>
     </motion.div>
   )
