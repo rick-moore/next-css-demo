@@ -1,11 +1,11 @@
-import styledJsx from '../styles/page2.styles.js'
+import styles from '../styles/page2.module.css'
 import { motion } from 'framer-motion'
 import ChildComponent2 from '../components/ChildComponent2'
 
 export default function page2() {
     return (
       <motion.div 
-        className={`${styledJsx.className} container`}
+        className={styles.container}
         initial={{ opacity: 0}}
         animate={{ 
             opacity: 1,
@@ -13,10 +13,9 @@ export default function page2() {
           }}
         exit={{ opacity: 0 }}
       >
-        <main className={`${styledJsx.className} main`}>
+        <main className={styles.main}>
           <ChildComponent2 />
         </main>
-        {styledJsx.styles}
       </motion.div>
     )
 }
