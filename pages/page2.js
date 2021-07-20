@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import styledJsx from '../styles/page2.styles.js'
 import { motion } from 'framer-motion'
 import ChildComponent2 from '../components/ChildComponent2'

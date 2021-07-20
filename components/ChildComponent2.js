@@ -5,7 +5,7 @@ export default function ChildComponent() {
     return (
         <div>
             <main className={`${styledJsx.className} main`}>
-                <h1 className={styledJsx.className}>I AM THE FIRST PAGE</h1>
+                <h1 className={styledJsx.className}>I AM THE SECOND PAGE</h1>
                 <Image
                     src='/image2.jpg'
                     alt='Image 2'
