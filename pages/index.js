@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css'
 import { motion } from 'framer-motion'
 import ChildComponent from '../components/ChildComponent'
 
+
 export default function Home() {
   return (
     <motion.div 
