@@ -1,21 +1,39 @@
-import styles from '../styles/page2.module.css'
 import { motion } from 'framer-motion'
 import ChildComponent2 from '../components/ChildComponent2'
 
 export default function page2() {
-    return (
-      <motion.div 
-        className={styles.container}
-        initial={{ opacity: 0}}
-        animate={{ 
-            opacity: 1,
-            transition: { duration: 2 } 
-          }}
-        exit={{ opacity: 0 }}
-      >
-        <main className={styles.main}>
-          <ChildComponent2 />
-        </main>
-      </motion.div>
-    )
+  return (
+    <motion.div 
+      className='container'
+      initial={{ opacity: 0}}
+      animate={{ 
+          opacity: 1,
+          transition: { duration: 2 } 
+        }}
+      exit={{ opacity: 0 }}
+    >
+      <main className='main'>
+        <ChildComponent2 />
+      </main>
+
+      <style jsx>{`
+        .container {
+          padding: 0 0.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .main {
+          padding: 5rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      `}</style>
+    </motion.div>
+  )
 }
